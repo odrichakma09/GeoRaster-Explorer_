@@ -1,0 +1,85 @@
+# GeoRaster Explorer
+
+> A Java-based GIS and remote sensing toolkit for raster analysis,
+> environmental change detection, compound hazard modeling, and
+> GeoTIFF processing.
+
+![Java](https://img.shields.io/badge/Java-17%2B-orange)
+![GeoTools](https://img.shields.io/badge/GeoTools-34.0-blue)
+![GIS](https://img.shields.io/badge/Domain-GIS%20%7C%20Remote%20Sensing-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+---
+
+## Overview
+
+GeoRaster Explorer is a Java-based geospatial raster analysis application
+developed to explore the application of programming, GIS, remote sensing,
+and environmental modeling.
+
+The project implements a custom raster data structure and a collection of
+raster analysis operations, environmental indices, change detection
+methods, hazard classification techniques, and GeoTIFF input/output
+capabilities.
+
+A Khagrachhari, Bangladesh case study demonstrates compound hazard analysis
+using landslide and flood hazard surfaces.
+
+## Objectives
+
+- Build a reusable raster processing engine in Java
+- Perform raster statistics and mathematical operations
+- Implement environmental indices such as NDVI
+- Perform raster normalization and change detection
+- Read and write GeoTIFF datasets
+- Combine multiple environmental hazard surfaces
+- Produce GIS-compatible raster outputs
+- Establish a foundation for future GeoAI and environmental applications
+
+## Features
+
+- Custom raster data structure
+- Raster metadata management
+- Raster statistics
+- Minimum and maximum analysis
+- Mean calculation
+- Valid and NoData cell counting
+- Raster normalization
+- Raster difference
+- Thresholding
+- Raster reclassification
+- NDVI calculation
+- NDVI classification
+- Environmental change detection
+- GeoTIFF reading
+- GeoTIFF export
+- Raster compatibility checking
+- Compound hazard modeling
+- Hazard classification
+- QGIS-compatible output
+
+## Technologies
+
+- Java
+- Maven
+- GeoTools
+- GIS
+- Remote Sensing
+- Raster Analysis
+- GeoTIFF
+- QGIS
+
+## Project Structure
+
+```text
+GeoRaster-Explorer/
+├── src/
+├── data/
+│   └── README.md
+├── output/
+│   └── README.md
+├── screenshots/
+│   └── Khagrachari_Compound_Hazard_Map.png
+├── README.md
+├── .gitignore
+└── pom.xml
